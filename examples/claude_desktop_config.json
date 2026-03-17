@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "local-fetcher": {
+      "command": "uv",
+      "args": [
+        "--directory",
+        "/path/to/your/local-fetch-server",
+        "run",
+        "python",
+        "fetch_server.py"
+      ]
+    }
+  }
+}
